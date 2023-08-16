@@ -1,0 +1,316 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;400;700;900&display=swap');
+/* font-family: 'Poppins', sans-serif; */
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+    background: url(/img/background-tasks.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* Firefox */
+* {
+  scrollbar-width: thin;
+  scrollbar-color: #0D9AD6 #2D0E76;
+}
+
+/* Chrome, Edge and Safari */
+*::-webkit-scrollbar {
+  width: 10px;
+  width: 10px;
+}
+*::-webkit-scrollbar-track {
+  border-radius: 5px;
+  background-color: #2D0E76;
+}
+
+*::-webkit-scrollbar-track:hover {
+  background-color: #2D0E76;
+}
+
+*::-webkit-scrollbar-track:active {
+  background-color: #4215AE;
+}
+
+*::-webkit-scrollbar-thumb {
+  border-radius: 20px;
+  background-color: #0D9AD6;
+  border: 2px solid #2D0E76;
+}
+
+*::-webkit-scrollbar-thumb:hover {
+  background-color: #0D9AD6;
+}
+
+*::-webkit-scrollbar-thumb:active {
+  background-color: #0D9AD6;
+}
+
+
+/* Header */
+header{
+    height: 100vh;
+}
+/* Nav */
+nav{
+    width: 100%;
+}
+
+ul{
+    width: fit-content;
+    margin: 0 auto;
+    list-style-type: none;
+    display: flex;
+}
+
+li{
+    padding: 24px;
+}
+
+a{
+    transition: all .3s ease;
+    font-size: 32px;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    padding-bottom: 8px;
+    font-weight: 200;
+    text-shadow: 1px 1px 1px black;
+}
+
+a:hover{
+    color:rgb(7, 236, 217);
+}
+
+
+.active{
+    border-bottom: 2px solid rgb(7, 236, 217);
+}
+
+/* baner */
+.baner{
+    margin: 0 auto;
+    margin-top: 200px;
+    width: 100%;
+    height: fit-content;
+}
+
+.baner h1{
+    font-size: 80px;
+    color: rgb(255, 255, 255);
+    text-shadow: 4px 4px 3px rgba(0, 0, 0, 0.747);
+    font-weight: 600;
+    letter-spacing: 2px;
+    text-align: center;
+}
+
+
+
+.headerButton{
+    display: block;
+    margin: 0 auto;
+    margin-top: 50px;
+    padding: 14px;
+    width: 250px;
+    font-size: 25px;
+    font-weight: 200;
+    background-color: rgba(0, 0, 0, 0.274);
+    cursor: pointer;
+    color: white;
+    border: 1px solid white;
+    border-radius: 10px;
+    transition: .3s ease;
+}
+
+.headerButton:hover{
+    background-color: rgba(0, 0, 0, 0.863);
+    border-radius: 30px;
+    color: rgb(7, 236, 217);
+    border-color: rgb(7, 236, 217);
+}
+
+
+
+/* main */
+main{
+  margin-top: 70px;
+  margin-bottom: 100px;
+}
+
+/* Cards */
+.ag-format-container {
+    width: 1142px;
+    margin: 0 auto;
+}
+.ag-courses_box {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: start;
+    -ms-flex-align: start;
+    align-items: flex-start;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+  }
+  .ag-courses_item {
+    -ms-flex-preferred-size: calc(33.33333% - 30px);
+    flex-basis: calc(33.33333% - 30px);
+  
+    margin: 0 15px 120px;
+  
+    overflow: hidden;
+  
+    border-radius: 28px;
+    box-shadow: 6px 6px 30px rgba(0, 0, 0, 0.658);
+  }
+  .ag-courses-item_link {
+    display: block;
+    padding: 30px 20px;
+    background-color: #1b1a2086;
+  
+    overflow: hidden;
+  
+    position: relative;
+  }
+  .ag-courses-item_link:hover,
+  .ag-courses-item_link:hover .ag-courses-item_date {
+    text-decoration: none;
+    color: #FFF;
+  }
+  .ag-courses-item_link:hover .ag-courses-item_bg {
+    -webkit-transform: scale(10);
+    -ms-transform: scale(10);
+    transform: scale(10);
+  }
+  .ag-courses-item_title {
+    min-height: 87px;
+    margin: 0 0 25px;
+  
+    overflow: hidden;
+  
+    font-weight: bold;
+    font-size: 30px;
+    color: #FFF;
+  
+    z-index: 2;
+    position: relative;
+  }
+  .ag-courses-item_date-box {
+    font-size: 18px;
+    color: #FFF;
+  
+    z-index: 2;
+    position: relative;
+  }
+
+  /* HTML CSS JS COLORS */
+  .htmlColor {
+    font-weight: bold;
+    color: #f3610d;
+  
+    -webkit-transition: color .5s ease;
+    -o-transition: color .5s ease;
+    transition: color .5s ease
+  }
+  .cssColor {
+    font-weight: bold;
+    color: #4c49ea;
+  
+    -webkit-transition: color .5s ease;
+    -o-transition: color .5s ease;
+    transition: color .5s ease
+  }
+
+  .jsColor{
+    font-weight: bold;
+    color: #f3cf05;
+  
+    -webkit-transition: color .5s ease;
+    -o-transition: color .5s ease;
+    transition: color .5s ease
+  }
+
+
+  .ag-courses-item_bg {
+    height: 128px;
+    width: 128px;
+    background-color: #f3610d;
+  
+    z-index: 1;
+    position: absolute;
+    top: -75px;
+    right: -75px;
+  
+    border-radius: 50%;
+  
+    -webkit-transition: all .5s ease;
+    -o-transition: all .5s ease;
+    transition: all .5s ease;
+  }
+  .ag-courses_item:nth-child(2n) .ag-courses-item_bg {
+    background-color: #f3610d;
+  }
+  .ag-courses_item:nth-child(3n) .ag-courses-item_bg {
+    background-color: #f3610d;
+  }
+  .ag-courses_item:nth-child(4n) .ag-courses-item_bg {
+    background-color: #f3610d;
+  }
+  .ag-courses_item:nth-child(5n) .ag-courses-item_bg {
+    background-color: #f3610d;
+  }
+  .ag-courses_item:nth-child(6n) .ag-courses-item_bg {
+    background-color: #4c49ea;
+  }
+  .ag-courses_item:nth-child(7n) .ag-courses-item_bg {
+    background-color: #4c49ea;
+  }
+  .ag-courses_item:nth-child(8n) .ag-courses-item_bg {
+    background-color: #f3cf05;
+  }
+  .ag-courses_item:nth-child(9n) .ag-courses-item_bg {
+    background-color: #f3cf05;
+  }
+  
+  
+  
+  @media only screen and (max-width: 979px) {
+    .ag-courses_item {
+      -ms-flex-preferred-size: calc(50% - 30px);
+      flex-basis: calc(50% - 30px);
+    }
+    .ag-courses-item_title {
+      font-size: 24px;
+    }
+  }
+  
+  @media only screen and (max-width: 767px) {
+    .ag-format-container {
+      width: 96%;
+    }
+  
+  }
+  @media only screen and (max-width: 639px) {
+    .ag-courses_item {
+      -ms-flex-preferred-size: 100%;
+      flex-basis: 100%;
+    }
+    .ag-courses-item_title {
+      min-height: 72px;
+      line-height: 1;
+  
+      font-size: 24px;
+    }
+    .ag-courses-item_link {
+      padding: 22px 40px;
+    }
+    .ag-courses-item_date-box {
+      font-size: 16px;
+    }
+  }

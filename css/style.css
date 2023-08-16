@@ -1,0 +1,142 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;400;700;900&display=swap');
+/* font-family: 'Poppins', sans-serif; */
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+}
+
+/* Firefox */
+* {
+    scrollbar-width: thin;
+    scrollbar-color: #0D9AD6 #2D0E76;
+  }
+  
+  /* Chrome, Edge and Safari */
+  *::-webkit-scrollbar {
+    width: 10px;
+    width: 10px;
+  }
+  *::-webkit-scrollbar-track {
+    border-radius: 5px;
+    background-color: #2D0E76;
+  }
+  
+  *::-webkit-scrollbar-track:hover {
+    background-color: #2D0E76;
+  }
+  
+  *::-webkit-scrollbar-track:active {
+    background-color: #4215AE;
+  }
+  
+  *::-webkit-scrollbar-thumb {
+    border-radius: 20px;
+    background-color: #0D9AD6;
+    border: 2px solid #2D0E76;
+  }
+  
+  *::-webkit-scrollbar-thumb:hover {
+    background-color: #0D9AD6;
+  }
+  
+  *::-webkit-scrollbar-thumb:active {
+    background-color: #0D9AD6;
+  }
+
+/* Header */
+header{
+    height: 100vh;
+    background-image: url(/img/background-header.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+
+/* Nav */
+nav{
+    width: 100%;
+}
+
+ul{
+    width: fit-content;
+    margin: 0 auto;
+    list-style-type: none;
+    display: flex;
+}
+
+li{
+    padding: 24px;
+}
+
+a{
+    transition: all .3s ease;
+    font-size: 32px;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    padding-bottom: 8px;
+    font-weight: 300;
+    text-shadow: 1px 1px 2px black;
+}
+
+a:hover{
+    color:darkviolet;
+}
+
+
+.active{
+    border-bottom: 2px solid darkviolet;
+}
+
+
+
+/* Baner */
+
+.baner{
+    margin: 0 auto;
+    position: relative;
+    top: 180px;
+    width: 100%;
+    height: fit-content;
+}
+
+.baner h1{
+    font-size: 80px;
+    color: rgb(255, 255, 255);
+    text-shadow: 4px 4px 3px rgba(0, 0, 0, 0.747);
+    font-weight: 600;
+    letter-spacing: 2px;
+    text-align: center;
+}
+
+
+
+.headerButton{
+    display: block;
+    margin: 0 auto;
+    position: relative;
+    top: 100px;
+    padding: 12px;
+    width: 230px;
+    font-size: 25px;
+    font-weight: 200;
+    background-color: rgba(0, 0, 0, 0.274);
+    cursor: pointer;
+    color: white;
+    border: 1px solid white;
+    border-radius: 10px;
+    transition: .3s ease;
+}
+
+.headerButton:hover{
+    background-color: rgba(0, 0, 0, 0.863);
+    border-radius: 30px;
+    color: darkviolet;
+    border-color: darkviolet;
+}
