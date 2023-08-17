@@ -278,7 +278,12 @@ main{
     background-color: #f3cf05;
   }
   
-  
+  /* icons-style */
+  .ag-courses-item_title i{
+    color: rgb(6, 196, 6);
+    font-size: 35px;
+    margin-left: 20px;
+  }
   
   @media only screen and (max-width: 979px) {
     .ag-courses_item {

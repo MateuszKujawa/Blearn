@@ -5,7 +5,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Zadanie 1</title>
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
-    <link rel="stylesheet" href="/css/taskStyleFolder/style.css">
+    <link rel="stylesheet" href="/tasks/taskStyle/style.css">
+
+    <script>
+       
+    </script>
 </head>
 <body>
     <header>
@@ -19,6 +23,9 @@
                 </li>
                 <li>
                     <a href="/nauka.html">Przydatna wiedza</a>
+                </li>
+                <li>
+                    <a href="/send-task.html">Wyślij zadanie</a>
                 </li>
             </ul>
         </nav>
@@ -44,10 +51,22 @@
 
                 - Stwórz przycisk używając znacznika "button" a następnie dodaj do niego napis, który będzie wyświetlać "Lampa jak chuj"<br><br>
 
-                - Oddziel zdjęcie od przycisku tagiem nowej lini (br)
+                - Oddziel zdjęcie od przycisku tagiem nowej lini (br)<br><br>
+
+                - Gotowe zadanie wyślij w zakładce "Wyślij zadanie".
             </p>
         </div>
-        <div class="text-img">
+
+        <div class="download-box">
+            <h3>Pliki do pobrania:</h3>
+            <a href="" class="download-btn" onclick="return alert('Brak plików do pobrania.')">
+                Pobierz plik <i class="fa-regular fa-floppy-disk"></i>
+            </a>
+        </div>
+
+        <hr>
+
+        <div class="text-img" data-aos="fade-up">
             <p>Tak wygląda gotowy projekt:</p>
         </div>
         <div class="task-img" data-aos="fade-up">
@@ -56,6 +75,7 @@
         
     </main>
 
+    <script src="https://kit.fontawesome.com/3fd4863eda.js" crossorigin="anonymous"></script>
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script>
         AOS.init({
